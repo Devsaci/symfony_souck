@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="* @Route(&quot;/&quot;, name=&quot;home&quot;)&#10;//'controller_name' =&gt; 'HomeController',">
+    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="comment in index.html.twig &#10;{# {% block title %}Hello HomeController!{% endblock %} #}">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +163,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608375407806</updated>
       <workItem from="1608375410183" duration="4388000" />
-      <workItem from="1608457448162" duration="940000" />
+      <workItem from="1608457448162" duration="3352000" />
     </task>
     <task id="LOCAL-00001" summary="Iitialis Souck File CSS,JS, base.html.twig">
       <created>1608376983432</created>
@@ -206,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608458282032</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="comment in index.html.twig &#10;{# {% block title %}Hello HomeController!{% endblock %} #}">
+      <created>1608458514507</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608458514507</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,17 +239,7 @@
     <MESSAGE value="affiche templete Carousel Bootstrap" />
     <MESSAGE value="recreat HomeController/console make:controller" />
     <MESSAGE value="* @Route(&quot;/&quot;, name=&quot;home&quot;)&#10;//'controller_name' =&gt; 'HomeController'," />
-    <option name="LAST_COMMIT_MESSAGE" value="* @Route(&quot;/&quot;, name=&quot;home&quot;)&#10;//'controller_name' =&gt; 'HomeController'," />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/templates/base.html.twig</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="comment in index.html.twig &#10;{# {% block title %}Hello HomeController!{% endblock %} #}" />
+    <option name="LAST_COMMIT_MESSAGE" value="comment in index.html.twig &#10;{# {% block title %}Hello HomeController!{% endblock %} #}" />
   </component>
 </project>
