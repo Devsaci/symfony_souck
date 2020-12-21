@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="creat entity User():">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,6 +154,11 @@
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="StructuralSearchPlugin">
+    <searchConfiguration name="Unnamed" created="1608547859489" text="PDOConnection.php" recursive="false" caseInsensitive="false" type="PHP" scope_type="PROJECT" scope_descriptor="" history="1">
+      <constraint name="__context__" within="" contains="" />
+    </searchConfiguration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="" />
@@ -166,7 +168,7 @@
       <updated>1608375407806</updated>
       <workItem from="1608375410183" duration="4388000" />
       <workItem from="1608457448162" duration="6647000" />
-      <workItem from="1608545093928" duration="1471000" />
+      <workItem from="1608545093928" duration="3681000" />
     </task>
     <task id="LOCAL-00001" summary="Iitialis Souck File CSS,JS, base.html.twig">
       <created>1608376983432</created>
@@ -238,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608545948458</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="file env: mysql://root:root@127.0.0.1:3306/souck?serverVersion=5.7">
+      <created>1608546801289</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608546801289</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,6 +276,7 @@
     <MESSAGE value="{{ asset('assets/css/bootstrap.min.css') }}&#10;{{ asset('assets/css/carousel.css') }}&#10;{{ asset('assets/js/bootstrap.bundle.js') }}" />
     <MESSAGE value="Integration bootstrap.css/config:index.html.twig" />
     <MESSAGE value="Creat Entity User()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creat Entity User()" />
+    <MESSAGE value="file env: mysql://root:root@127.0.0.1:3306/souck?serverVersion=5.7" />
+    <option name="LAST_COMMIT_MESSAGE" value="file env: mysql://root:root@127.0.0.1:3306/souck?serverVersion=5.7" />
   </component>
 </project>
