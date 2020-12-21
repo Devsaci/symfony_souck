@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="comment in index.html.twig &#10;{# {% block title %}Hello HomeController!{% endblock %} #}">
+    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="creat entity User():">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +165,8 @@
       <option name="presentableId" value="Default" />
       <updated>1608375407806</updated>
       <workItem from="1608375410183" duration="4388000" />
-      <workItem from="1608457448162" duration="3352000" />
+      <workItem from="1608457448162" duration="6647000" />
+      <workItem from="1608545093928" duration="1471000" />
     </task>
     <task id="LOCAL-00001" summary="Iitialis Souck File CSS,JS, base.html.twig">
       <created>1608376983432</created>
@@ -214,7 +217,28 @@
       <option name="project" value="LOCAL" />
       <updated>1608458514507</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="{{ asset('assets/css/bootstrap.min.css') }}&#10;{{ asset('assets/css/carousel.css') }}&#10;{{ asset('assets/js/bootstrap.bundle.js') }}">
+      <created>1608461003889</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608461003889</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Integration bootstrap.css/config:index.html.twig">
+      <created>1608462593113</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608462593113</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Creat Entity User()">
+      <created>1608545948458</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608545948458</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +264,9 @@
     <MESSAGE value="recreat HomeController/console make:controller" />
     <MESSAGE value="* @Route(&quot;/&quot;, name=&quot;home&quot;)&#10;//'controller_name' =&gt; 'HomeController'," />
     <MESSAGE value="comment in index.html.twig &#10;{# {% block title %}Hello HomeController!{% endblock %} #}" />
-    <option name="LAST_COMMIT_MESSAGE" value="comment in index.html.twig &#10;{# {% block title %}Hello HomeController!{% endblock %} #}" />
+    <MESSAGE value="{{ asset('assets/css/bootstrap.min.css') }}&#10;{{ asset('assets/css/carousel.css') }}&#10;{{ asset('assets/js/bootstrap.bundle.js') }}" />
+    <MESSAGE value="Integration bootstrap.css/config:index.html.twig" />
+    <MESSAGE value="Creat Entity User()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creat Entity User()" />
   </component>
 </project>
