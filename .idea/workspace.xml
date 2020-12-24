@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="@Route(&quot;/inscription&quot;">
+    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="symfony console make:form =&gt; created: src/Form/RegisterType.php : Success!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +173,7 @@
       <workItem from="1608545093928" duration="11043000" />
       <workItem from="1608636640927" duration="1175000" />
       <workItem from="1608734307249" duration="2489000" />
-      <workItem from="1608819704413" duration="2687000" />
+      <workItem from="1608819704413" duration="4959000" />
     </task>
     <task id="LOCAL-00001" summary="Iitialis Souck File CSS,JS, base.html.twig">
       <created>1608376983432</created>
@@ -289,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608559760122</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="symfony console make:form =&gt; created: src/Form/RegisterType.php : Success!">
+      <created>1608822611167</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1608822611167</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,6 +329,7 @@
     <MESSAGE value="symfony console make:migration =&gt; &#10; Next: Review the new migration &quot;migrations/Version20201221115512.php&quot;&#10; Then: Run the migration with php bin/console doctrine:migrations:migrate&#10; See https://symfony.com/doc/current/bundles/DoctrineMigrationsBundle/index.html" />
     <MESSAGE value="symfony console doctrine:migrations:migrate =&gt; finished in 1015.5ms, used 20M memory, 1 migrations executed, 1 sql queries" />
     <MESSAGE value="symfony console make:controller =&gt; &#10;1. created: src/Controller/RegisterController.php&#10;2. created: templates/register/index.html.twig" />
-    <option name="LAST_COMMIT_MESSAGE" value="symfony console make:controller =&gt; &#10;1. created: src/Controller/RegisterController.php&#10;2. created: templates/register/index.html.twig" />
+    <MESSAGE value="symfony console make:form =&gt; created: src/Form/RegisterType.php : Success!" />
+    <option name="LAST_COMMIT_MESSAGE" value="symfony console make:form =&gt; created: src/Form/RegisterType.php : Success!" />
   </component>
 </project>
