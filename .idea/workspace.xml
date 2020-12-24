@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="symfony console make:form =&gt; created: src/Form/RegisterType.php : Success!">
+    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="createForm(),createView(),{{ form(form) }} =&gt; Formulaire in FORM index.html.twig">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -173,7 +173,7 @@
       <workItem from="1608545093928" duration="11043000" />
       <workItem from="1608636640927" duration="1175000" />
       <workItem from="1608734307249" duration="2489000" />
-      <workItem from="1608819704413" duration="4959000" />
+      <workItem from="1608819704413" duration="5331000" />
     </task>
     <task id="LOCAL-00001" summary="Iitialis Souck File CSS,JS, base.html.twig">
       <created>1608376983432</created>
@@ -294,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608822611167</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="createForm(),createView(),{{ form(form) }} =&gt; Formulaire in FORM index.html.twig">
+      <created>1608838313855</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1608838313855</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +337,7 @@
     <MESSAGE value="symfony console doctrine:migrations:migrate =&gt; finished in 1015.5ms, used 20M memory, 1 migrations executed, 1 sql queries" />
     <MESSAGE value="symfony console make:controller =&gt; &#10;1. created: src/Controller/RegisterController.php&#10;2. created: templates/register/index.html.twig" />
     <MESSAGE value="symfony console make:form =&gt; created: src/Form/RegisterType.php : Success!" />
-    <option name="LAST_COMMIT_MESSAGE" value="symfony console make:form =&gt; created: src/Form/RegisterType.php : Success!" />
+    <MESSAGE value="createForm(),createView(),{{ form(form) }} =&gt; Formulaire in FORM index.html.twig" />
+    <option name="LAST_COMMIT_MESSAGE" value="createForm(),createView(),{{ form(form) }} =&gt; Formulaire in FORM index.html.twig" />
   </component>
 </project>
