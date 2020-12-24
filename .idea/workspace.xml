@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment=" -&gt;add('roles') =&gt; An exception has been thrown during the rendering of a template (&quot;Notice: Array to string conversion&quot;).">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="form_themes: ['bootstrap_4_layout.html.twig'] in config/packages/twig.yam" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,7 +171,7 @@
       <workItem from="1608545093928" duration="11043000" />
       <workItem from="1608636640927" duration="1175000" />
       <workItem from="1608734307249" duration="2489000" />
-      <workItem from="1608819704413" duration="5887000" />
+      <workItem from="1608819704413" duration="6192000" />
     </task>
     <task id="LOCAL-00001" summary="Iitialis Souck File CSS,JS, base.html.twig">
       <created>1608376983432</created>
@@ -309,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608838557532</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="form_themes: ['bootstrap_4_layout.html.twig'] in config/packages/twig.yam">
+      <created>1608839268715</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1608839268716</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,6 +351,7 @@
     <MESSAGE value="symfony console make:form =&gt; created: src/Form/RegisterType.php : Success!" />
     <MESSAGE value="createForm(),createView(),{{ form(form) }} =&gt; Formulaire in FORM index.html.twig" />
     <MESSAGE value=" -&gt;add('roles') =&gt; An exception has been thrown during the rendering of a template (&quot;Notice: Array to string conversion&quot;)." />
-    <option name="LAST_COMMIT_MESSAGE" value=" -&gt;add('roles') =&gt; An exception has been thrown during the rendering of a template (&quot;Notice: Array to string conversion&quot;)." />
+    <MESSAGE value="form_themes: ['bootstrap_4_layout.html.twig'] in config/packages/twig.yam" />
+    <option name="LAST_COMMIT_MESSAGE" value="form_themes: ['bootstrap_4_layout.html.twig'] in config/packages/twig.yam" />
   </component>
 </project>
