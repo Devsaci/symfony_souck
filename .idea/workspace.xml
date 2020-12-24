@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="symfony console doctrine:migrations:migrate =&gt; finished in 1015.5ms, used 20M memory, 1 migrations executed, 1 sql queries">
+    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="@Route(&quot;/inscription&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,6 +145,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -169,7 +172,10 @@
       <updated>1608375407806</updated>
       <workItem from="1608375410183" duration="4388000" />
       <workItem from="1608457448162" duration="6647000" />
-      <workItem from="1608545093928" duration="9842000" />
+      <workItem from="1608545093928" duration="11043000" />
+      <workItem from="1608636640927" duration="1175000" />
+      <workItem from="1608734307249" duration="2489000" />
+      <workItem from="1608819704413" duration="2687000" />
     </task>
     <task id="LOCAL-00001" summary="Iitialis Souck File CSS,JS, base.html.twig">
       <created>1608376983432</created>
@@ -276,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608559066193</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="symfony console make:controller =&gt; &#10;1. created: src/Controller/RegisterController.php&#10;2. created: templates/register/index.html.twig">
+      <created>1608559760122</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1608559760122</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,6 +323,7 @@
     <MESSAGE value="file:.env/ DATABASE_URL=&quot;mysql://root:@127.0.0.1:3306/souck?serverVersion=5.7&quot; =&gt; Created database `souck` for connection named default" />
     <MESSAGE value="symfony console make:migration =&gt; &#10; Next: Review the new migration &quot;migrations/Version20201221115512.php&quot;&#10; Then: Run the migration with php bin/console doctrine:migrations:migrate&#10; See https://symfony.com/doc/current/bundles/DoctrineMigrationsBundle/index.html" />
     <MESSAGE value="symfony console doctrine:migrations:migrate =&gt; finished in 1015.5ms, used 20M memory, 1 migrations executed, 1 sql queries" />
-    <option name="LAST_COMMIT_MESSAGE" value="symfony console doctrine:migrations:migrate =&gt; finished in 1015.5ms, used 20M memory, 1 migrations executed, 1 sql queries" />
+    <MESSAGE value="symfony console make:controller =&gt; &#10;1. created: src/Controller/RegisterController.php&#10;2. created: templates/register/index.html.twig" />
+    <option name="LAST_COMMIT_MESSAGE" value="symfony console make:controller =&gt; &#10;1. created: src/Controller/RegisterController.php&#10;2. created: templates/register/index.html.twig" />
   </component>
 </project>
