@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="add field lastname, firstname" />
+    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="symfony console doctrine:migration:migrate =&gt;  Migrating up to DoctrineMigrations\Version20201224195540" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,7 +171,7 @@
       <workItem from="1608545093928" duration="11043000" />
       <workItem from="1608636640927" duration="1175000" />
       <workItem from="1608734307249" duration="2489000" />
-      <workItem from="1608819704413" duration="6519000" />
+      <workItem from="1608819704413" duration="6965000" />
     </task>
     <task id="LOCAL-00001" summary="Iitialis Souck File CSS,JS, base.html.twig">
       <created>1608376983432</created>
@@ -320,7 +320,28 @@
       <option name="project" value="LOCAL" />
       <updated>1608839649469</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="symfony console make:migration">
+      <created>1608839999532</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1608839999532</updated>
+    </task>
+    <task id="LOCAL-00023" summary="symfony console make:migration =&gt; Next: Review the new migration &quot;migrations/Version20201224195540.php&quot;">
+      <created>1608840079205</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1608840079205</updated>
+    </task>
+    <task id="LOCAL-00024" summary="symfony console doctrine:migration:migrate =&gt;  Migrating up to DoctrineMigrations\Version20201224195540">
+      <created>1608840161704</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1608840161704</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,6 +381,9 @@
     <MESSAGE value=" -&gt;add('roles') =&gt; An exception has been thrown during the rendering of a template (&quot;Notice: Array to string conversion&quot;)." />
     <MESSAGE value="form_themes: ['bootstrap_4_layout.html.twig'] in config/packages/twig.yam" />
     <MESSAGE value="add field lastname, firstname" />
-    <option name="LAST_COMMIT_MESSAGE" value="add field lastname, firstname" />
+    <MESSAGE value="symfony console make:migration" />
+    <MESSAGE value="symfony console make:migration =&gt; Next: Review the new migration &quot;migrations/Version20201224195540.php&quot;" />
+    <MESSAGE value="symfony console doctrine:migration:migrate =&gt;  Migrating up to DoctrineMigrations\Version20201224195540" />
+    <option name="LAST_COMMIT_MESSAGE" value="symfony console doctrine:migration:migrate =&gt;  Migrating up to DoctrineMigrations\Version20201224195540" />
   </component>
 </project>
