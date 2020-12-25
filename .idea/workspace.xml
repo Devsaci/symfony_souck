@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="password_confirm">
+    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="Test $user = $form-&gt;getData();">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RegisterController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +175,7 @@
       <workItem from="1608636640927" duration="1175000" />
       <workItem from="1608734307249" duration="2489000" />
       <workItem from="1608819704413" duration="8063000" />
-      <workItem from="1608884158391" duration="6295000" />
+      <workItem from="1608884158391" duration="8140000" />
     </task>
     <task id="LOCAL-00001" summary="Iitialis Souck File CSS,JS, base.html.twig">
       <created>1608376983432</created>
@@ -386,7 +387,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608916137727</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Request $request=&gt; Injection de dependance">
+      <created>1608917144648</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1608917144648</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Test $user = $form-&gt;getData();">
+      <created>1608917340431</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1608917340431</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,8 +420,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="* @Route(&quot;/&quot;, name=&quot;home&quot;)&#10;//'controller_name' =&gt; 'HomeController'," />
-    <MESSAGE value="comment in index.html.twig &#10;{# {% block title %}Hello HomeController!{% endblock %} #}" />
     <MESSAGE value="{{ asset('assets/css/bootstrap.min.css') }}&#10;{{ asset('assets/css/carousel.css') }}&#10;{{ asset('assets/js/bootstrap.bundle.js') }}" />
     <MESSAGE value="Integration bootstrap.css/config:index.html.twig" />
     <MESSAGE value="Creat Entity User()" />
@@ -430,6 +443,8 @@
     <MESSAGE value=" -&gt;add('submit') =&gt; Can't get a way to read the property &quot;submit&quot; in class &quot;App\Entity\User&quot;. :( !!!" />
     <MESSAGE value="-&gt;add('submit', SubmitType::class, ['label' =&gt; &quot;S'inscrire&quot;  ]) =&gt; Button S'inscrire" />
     <MESSAGE value="password_confirm" />
-    <option name="LAST_COMMIT_MESSAGE" value="password_confirm" />
+    <MESSAGE value="Request $request=&gt; Injection de dependance" />
+    <MESSAGE value="Test $user = $form-&gt;getData();" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test $user = $form-&gt;getData();" />
   </component>
 </project>
