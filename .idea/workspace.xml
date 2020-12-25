@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="$password = $user-&gt;getPassword();">
+    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="psw encodé in DB souck">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/translation.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/translation.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/RegisterType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/RegisterType.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +177,7 @@
       <workItem from="1608636640927" duration="1175000" />
       <workItem from="1608734307249" duration="2489000" />
       <workItem from="1608819704413" duration="8063000" />
-      <workItem from="1608884158391" duration="10926000" />
+      <workItem from="1608884158391" duration="14974000" />
     </task>
     <task id="LOCAL-00001" summary="Iitialis Souck File CSS,JS, base.html.twig">
       <created>1608376983432</created>
@@ -429,7 +431,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608931171716</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="$encoder-&gt;encodePassword=&gt; pwd cripté">
+      <created>1608931354620</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1608931354620</updated>
+    </task>
+    <task id="LOCAL-00038" summary="psw encodé in DB souck">
+      <created>1608931549495</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1608931549495</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,8 +464,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="  SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)" />
-    <MESSAGE value="file:.env/ DATABASE_URL=&quot;mysql://root:@127.0.0.1:3306/souck?serverVersion=5.7&quot; =&gt; Created database `souck` for connection named default" />
     <MESSAGE value="symfony console make:migration =&gt; &#10; Next: Review the new migration &quot;migrations/Version20201221115512.php&quot;&#10; Then: Run the migration with php bin/console doctrine:migrations:migrate&#10; See https://symfony.com/doc/current/bundles/DoctrineMigrationsBundle/index.html" />
     <MESSAGE value="symfony console doctrine:migrations:migrate =&gt; finished in 1015.5ms, used 20M memory, 1 migrations executed, 1 sql queries" />
     <MESSAGE value="symfony console make:controller =&gt; &#10;1. created: src/Controller/RegisterController.php&#10;2. created: templates/register/index.html.twig" />
@@ -473,6 +487,8 @@
     <MESSAGE value="Injection EntityManagerInterface, creat public function __construct()" />
     <MESSAGE value="Modificat Input Form" />
     <MESSAGE value="$password = $user-&gt;getPassword();" />
-    <option name="LAST_COMMIT_MESSAGE" value="$password = $user-&gt;getPassword();" />
+    <MESSAGE value="$encoder-&gt;encodePassword=&gt; pwd cripté" />
+    <MESSAGE value="psw encodé in DB souck" />
+    <option name="LAST_COMMIT_MESSAGE" value="psw encodé in DB souck" />
   </component>
 </project>

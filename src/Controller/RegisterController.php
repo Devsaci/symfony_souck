@@ -40,7 +40,8 @@ class RegisterController extends AbstractController
             $user = $form->getData();
 
             $password = $encoder->encodePassword($user,$user->getPassword());
-           dd($password);
+            $user->setPassword($password);
+           //dd($password);
 //            Persistance en BD
 //            $doctrine =$this->getDoctrine()->getManager();
             $this->entityManager->persist($user);
