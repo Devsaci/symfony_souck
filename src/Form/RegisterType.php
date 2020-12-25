@@ -46,6 +46,7 @@ class RegisterType extends AbstractType
         ]
 
     ])
+            ->add('submit')
 
 
         ;
