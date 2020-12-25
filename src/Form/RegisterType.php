@@ -19,40 +19,45 @@ class RegisterType extends AbstractType
             //validation formulaire
             ->add('firstname', TextType::class, [
                 'label' => 'Votre prénom',
-                'attr'  => [
+                'attr' => [
                     'placeholder' => 'Merci de saisir votre prénom'
                 ]
 
             ])
             ->add('lastname', TextType::class, [
                 'label' => 'Votre nom',
-                'attr'  => [
+                'attr' => [
                     'placeholder' => 'Merci de saisir votre nom'
                 ]
 
             ])
-            ->add('email',  EmailType::class, [
+            ->add('email', EmailType::class, [
                 'label' => 'Votre  Email',
-                'attr'  => [
+                'attr' => [
                     'placeholder' => 'Merci de saisir votre  Email'
                 ]
 
             ])
             //->add('roles')
-            ->add('password',PasswordType::class, [
-        'label' => 'Votre  Password',
-        'attr'  => [
-            'placeholder' => 'Merci de saisir votre  Password'
-        ]
+            ->add('password', PasswordType::class, [
+                'label' => 'Votre  Password',
+                'attr' => [
+                    'placeholder' => 'Merci de saisir votre  Password'
+                ]
 
-    ])
-            ->add('submit', SubmitType::class, [
-                'label' => "S'inscrire"
             ])
 
+            ->add('password_confirm', PasswordType::class, [
+                'label' => "password_confirm!",
+                'mapped' => false,
+                'attr' => [
+                    'placeholder' => 'Merci de Password_confirm!'
+                ]
+            ])
 
-
-        ;
+            ->add('submit', SubmitType::class, [
+                'label' => "S'inscrire"
+            ]);
     }
 
     public function configureOptions(OptionsResolver $resolver)

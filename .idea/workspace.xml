@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="validation formulaire">
+    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="-&gt;add('submit', SubmitType::class, ['label' =&gt; &quot;S'inscrire&quot;  ]) =&gt; Button S'inscrire">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Form/RegisterType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/RegisterType.php" afterDir="false" />
     </list>
@@ -175,7 +175,7 @@
       <workItem from="1608636640927" duration="1175000" />
       <workItem from="1608734307249" duration="2489000" />
       <workItem from="1608819704413" duration="8063000" />
-      <workItem from="1608884158391" duration="3959000" />
+      <workItem from="1608884158391" duration="5272000" />
     </task>
     <task id="LOCAL-00001" summary="Iitialis Souck File CSS,JS, base.html.twig">
       <created>1608376983432</created>
@@ -359,7 +359,28 @@
       <option name="project" value="LOCAL" />
       <updated>1608843213524</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="-&gt;add('firstname'/'lastname'/'email'/'password'">
+      <created>1608914834368</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1608914834368</updated>
+    </task>
+    <task id="LOCAL-00028" summary=" -&gt;add('submit') =&gt; Can't get a way to read the property &quot;submit&quot; in class &quot;App\Entity\User&quot;. :( !!!">
+      <created>1608914981385</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1608914981385</updated>
+    </task>
+    <task id="LOCAL-00029" summary="-&gt;add('submit', SubmitType::class, ['label' =&gt; &quot;S'inscrire&quot;  ]) =&gt; Button S'inscrire">
+      <created>1608915117277</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1608915117277</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,9 +399,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creat HomeController" />
-    <MESSAGE value="Salam Souck" />
-    <MESSAGE value="affiche templete Carousel Bootstrap" />
     <MESSAGE value="recreat HomeController/console make:controller" />
     <MESSAGE value="* @Route(&quot;/&quot;, name=&quot;home&quot;)&#10;//'controller_name' =&gt; 'HomeController'," />
     <MESSAGE value="comment in index.html.twig &#10;{# {% block title %}Hello HomeController!{% endblock %} #}" />
@@ -403,6 +421,9 @@
     <MESSAGE value="symfony console doctrine:migration:migrate =&gt;  Migrating up to DoctrineMigrations\Version20201224195540" />
     <MESSAGE value="-&gt;add('firstname')&#10;-&gt;add('lastname')&#10;in RegisterType.php" />
     <MESSAGE value="validation formulaire" />
-    <option name="LAST_COMMIT_MESSAGE" value="validation formulaire" />
+    <MESSAGE value="-&gt;add('firstname'/'lastname'/'email'/'password'" />
+    <MESSAGE value=" -&gt;add('submit') =&gt; Can't get a way to read the property &quot;submit&quot; in class &quot;App\Entity\User&quot;. :( !!!" />
+    <MESSAGE value="-&gt;add('submit', SubmitType::class, ['label' =&gt; &quot;S'inscrire&quot;  ]) =&gt; Button S'inscrire" />
+    <option name="LAST_COMMIT_MESSAGE" value="-&gt;add('submit', SubmitType::class, ['label' =&gt; &quot;S'inscrire&quot;  ]) =&gt; Button S'inscrire" />
   </component>
 </project>
