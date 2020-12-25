@@ -16,9 +16,11 @@ class RegisterController extends AbstractController
 
     private $entityManager;
 
-    public function __construct(EntityManagerInterface $entityManager ){
+    public function __construct(EntityManagerInterface $entityManager)
+    {
         $this->entityManager = $entityManager;
     }
+
     /**
      * @Route("/inscription", name="register")
      * @param Request $request
@@ -31,13 +33,13 @@ class RegisterController extends AbstractController
         $form = $this->createForm(RegisterType::class, $user);
 
         $form->handleRequest($request);
-        if ($form->isSubmitted() && $form->isValid()){
+        if ($form->isSubmitted() && $form->isValid()) {
             $user = $form->getData();
             //dd($user);
 //            Persistance en BD
             //$doctrine =$this->getDoctrine()->getManager();
-            $doctrine->persist($user);
-            $doctrine->flush();
+            $this->entityManager->persist($user);
+            $this->entityManager->flush();
 
         }
 
