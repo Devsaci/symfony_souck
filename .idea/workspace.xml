@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="Test $user = $form-&gt;getData();">
+    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="Persistance en BD">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RegisterController.php" afterDir="false" />
     </list>
@@ -175,7 +175,7 @@
       <workItem from="1608636640927" duration="1175000" />
       <workItem from="1608734307249" duration="2489000" />
       <workItem from="1608819704413" duration="8063000" />
-      <workItem from="1608884158391" duration="8140000" />
+      <workItem from="1608884158391" duration="8601000" />
     </task>
     <task id="LOCAL-00001" summary="Iitialis Souck File CSS,JS, base.html.twig">
       <created>1608376983432</created>
@@ -401,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608917340431</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Persistance en BD">
+      <created>1608928596474</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1608928596474</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,7 +427,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="{{ asset('assets/css/bootstrap.min.css') }}&#10;{{ asset('assets/css/carousel.css') }}&#10;{{ asset('assets/js/bootstrap.bundle.js') }}" />
     <MESSAGE value="Integration bootstrap.css/config:index.html.twig" />
     <MESSAGE value="Creat Entity User()" />
     <MESSAGE value="file env: mysql://root:root@127.0.0.1:3306/souck?serverVersion=5.7" />
@@ -445,6 +451,7 @@
     <MESSAGE value="password_confirm" />
     <MESSAGE value="Request $request=&gt; Injection de dependance" />
     <MESSAGE value="Test $user = $form-&gt;getData();" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test $user = $form-&gt;getData();" />
+    <MESSAGE value="Persistance en BD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Persistance en BD" />
   </component>
 </project>
