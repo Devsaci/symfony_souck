@@ -4,6 +4,10 @@ namespace App\Form;
 
 use App\Entity\User;
 use Symfony\Component\Form\AbstractType;
+use Symfony\Component\Form\Extension\Core\Type\EmailType;
+use Symfony\Component\Form\Extension\Core\Type\PasswordType;
+use Symfony\Component\Form\Extension\Core\Type\SubmitType;
+use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
@@ -13,11 +17,37 @@ class RegisterType extends AbstractType
     {
         $builder
             //validation formulaire
-            ->add('firstname')
-            ->add('lastname')
-            ->add('email')
+            ->add('firstname', TextType::class, [
+                'label' => 'Votre prénom',
+                'attr'  => [
+                    'placeholder' => 'Merci de saisir votre prénom'
+                ]
+
+            ])
+            ->add('lastname', TextType::class, [
+                'label' => 'Votre nom',
+                'attr'  => [
+                    'placeholder' => 'Merci de saisir votre nom'
+                ]
+
+            ])
+            ->add('email',  EmailType::class, [
+                'label' => 'Votre  Email',
+                'attr'  => [
+                    'placeholder' => 'Merci de saisir votre  Email'
+                ]
+
+            ])
             //->add('roles')
-            ->add('password')
+            ->add('password',PasswordType::class, [
+        'label' => 'Votre  Password',
+        'attr'  => [
+            'placeholder' => 'Merci de saisir votre  Password'
+        ]
+
+    ])
+
+
         ;
     }
 

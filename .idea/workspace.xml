@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="symfony console doctrine:migration:migrate =&gt;  Migrating up to DoctrineMigrations\Version20201224195540" />
+    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="validation formulaire">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/RegisterType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/RegisterType.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,7 +174,8 @@
       <workItem from="1608545093928" duration="11043000" />
       <workItem from="1608636640927" duration="1175000" />
       <workItem from="1608734307249" duration="2489000" />
-      <workItem from="1608819704413" duration="6965000" />
+      <workItem from="1608819704413" duration="8063000" />
+      <workItem from="1608884158391" duration="3959000" />
     </task>
     <task id="LOCAL-00001" summary="Iitialis Souck File CSS,JS, base.html.twig">
       <created>1608376983432</created>
@@ -341,7 +345,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608840161704</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="-&gt;add('firstname')&#10;-&gt;add('lastname')&#10;in RegisterType.php">
+      <created>1608840573673</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1608840573673</updated>
+    </task>
+    <task id="LOCAL-00026" summary="validation formulaire">
+      <created>1608843213524</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1608843213524</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,7 +378,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Iitialis Souck File CSS,JS, base.html.twig" />
     <MESSAGE value="Creat HomeController" />
     <MESSAGE value="Salam Souck" />
     <MESSAGE value="affiche templete Carousel Bootstrap" />
@@ -384,6 +401,8 @@
     <MESSAGE value="symfony console make:migration" />
     <MESSAGE value="symfony console make:migration =&gt; Next: Review the new migration &quot;migrations/Version20201224195540.php&quot;" />
     <MESSAGE value="symfony console doctrine:migration:migrate =&gt;  Migrating up to DoctrineMigrations\Version20201224195540" />
-    <option name="LAST_COMMIT_MESSAGE" value="symfony console doctrine:migration:migrate =&gt;  Migrating up to DoctrineMigrations\Version20201224195540" />
+    <MESSAGE value="-&gt;add('firstname')&#10;-&gt;add('lastname')&#10;in RegisterType.php" />
+    <MESSAGE value="validation formulaire" />
+    <option name="LAST_COMMIT_MESSAGE" value="validation formulaire" />
   </component>
 </project>
