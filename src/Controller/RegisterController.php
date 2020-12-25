@@ -39,7 +39,7 @@ class RegisterController extends AbstractController
         if ($form->isSubmitted() && $form->isValid()) {
             $user = $form->getData();
 
-            $password = $user->getPassword();
+            $password = $encoder->encodePassword($user,$user->getPassword());
            dd($password);
 //            Persistance en BD
 //            $doctrine =$this->getDoctrine()->getManager();
