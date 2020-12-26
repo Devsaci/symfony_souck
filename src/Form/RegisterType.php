@@ -42,7 +42,7 @@ class RegisterType extends AbstractType
             ])
             ->add('email', EmailType::class, [
                 'label' => 'Votre  Email',
-                'constraints' => new Length(2,60),
+                'constraints' => new Length(2,3),
                 'attr' => [
                     'placeholder' => 'Merci de saisir votre  Email'
                 ]
