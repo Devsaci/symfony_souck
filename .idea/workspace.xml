@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="20. Les vues privées :old_password :'mapped' =&gt; false,">
+    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="20. Les vues privées :UserPasswordEncoderInterface $encoder">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/AccountPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AccountPasswordController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -175,28 +177,7 @@
       <workItem from="1608734307249" duration="2489000" />
       <workItem from="1608819704413" duration="8063000" />
       <workItem from="1608884158391" duration="15227000" />
-      <workItem from="1608977882298" duration="18961000" />
-    </task>
-    <task id="LOCAL-00015" summary="symfony console doctrine:migrations:migrate =&gt; finished in 1015.5ms, used 20M memory, 1 migrations executed, 1 sql queries">
-      <created>1608559066193</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1608559066193</updated>
-    </task>
-    <task id="LOCAL-00016" summary="symfony console make:controller =&gt; &#10;1. created: src/Controller/RegisterController.php&#10;2. created: templates/register/index.html.twig">
-      <created>1608559760122</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1608559760122</updated>
-    </task>
-    <task id="LOCAL-00017" summary="symfony console make:form =&gt; created: src/Form/RegisterType.php : Success!">
-      <created>1608822611167</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1608822611167</updated>
+      <workItem from="1608977882298" duration="20220000" />
     </task>
     <task id="LOCAL-00018" summary="createForm(),createView(),{{ form(form) }} =&gt; Formulaire in FORM index.html.twig">
       <created>1608838313855</created>
@@ -520,7 +501,28 @@
       <option name="project" value="LOCAL" />
       <updated>1609100273843</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="20. Les vues privées :public function index(Request $request)">
+      <created>1609100795932</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1609100795932</updated>
+    </task>
+    <task id="LOCAL-00065" summary="20. Les vues privées :public function index(Request $request)">
+      <created>1609100801283</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1609100801283</updated>
+    </task>
+    <task id="LOCAL-00066" summary="20. Les vues privées :UserPasswordEncoderInterface $encoder">
+      <created>1609100934081</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1609100934081</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,8 +548,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="17. Valider les données grâce au composant Validator de Symfony 5/Symfony\Component\Validator\Constraints\Length/ translator:fr" />
-    <MESSAGE value="17. Valider les données grâce au composant Validator de Symfony 5/Symfony\Component\Validator\Constraints\Length/ translator:/login =&gt; You are logged in as zakaria@mail.com" />
     <MESSAGE value="19. Les vues privées : L'espace membre de l'utilisateur : symfony console make:controller; Accountcontroller =&gt;  created: src/Controller/AccountController.php ; templates/account/index.html.twig" />
     <MESSAGE value="19. Les vues privées : L'espace membre de l'utilisateur : {{ dump (app) }}" />
     <MESSAGE value="19. Les vues privées : L'espace membre de l'utilisateur : {{ dump (app.user) }}" />
@@ -571,6 +571,8 @@
     <MESSAGE value="20. Les vues privées : Can't get a way to read the property &quot;new_password&quot; in class &quot;App\Entity\User&quot;." />
     <MESSAGE value="20. Les vues privées :'mapped' =&gt; false," />
     <MESSAGE value="20. Les vues privées :old_password :'mapped' =&gt; false," />
-    <option name="LAST_COMMIT_MESSAGE" value="20. Les vues privées :old_password :'mapped' =&gt; false," />
+    <MESSAGE value="20. Les vues privées :public function index(Request $request)" />
+    <MESSAGE value="20. Les vues privées :UserPasswordEncoderInterface $encoder" />
+    <option name="LAST_COMMIT_MESSAGE" value="20. Les vues privées :UserPasswordEncoderInterface $encoder" />
   </component>
 </project>
