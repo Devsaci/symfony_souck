@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="19. Les vues privées : L'espace membre de l'utilisateur :  throw new \Exception('TODO: provide a valid redirect inside '.__FILE__);">
-      <change beforePath="$PROJECT_DIR$/src/Security/LoginFormAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Security/LoginFormAuthenticator.php" afterDir="false" />
-    </list>
+    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="19. Les vues privées : L'espace membre de l'utilisateur : &#10;return new RedirectResponse($this-&gt;urlGenerator-&gt;generate('account'));" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,7 +173,7 @@
       <workItem from="1608734307249" duration="2489000" />
       <workItem from="1608819704413" duration="8063000" />
       <workItem from="1608884158391" duration="15227000" />
-      <workItem from="1608977882298" duration="7250000" />
+      <workItem from="1608977882298" duration="7503000" />
     </task>
     <task id="LOCAL-00001" summary="Iitialis Souck File CSS,JS, base.html.twig">
       <created>1608376983432</created>
@@ -499,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609067294818</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="19. Les vues privées : L'espace membre de l'utilisateur : &#10;return new RedirectResponse($this-&gt;urlGenerator-&gt;generate('account'));">
+      <created>1609067562454</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1609067562454</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,7 +530,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="symfony console make:migration" />
     <MESSAGE value="symfony console make:migration =&gt; Next: Review the new migration &quot;migrations/Version20201224195540.php&quot;" />
     <MESSAGE value="symfony console doctrine:migration:migrate =&gt;  Migrating up to DoctrineMigrations\Version20201224195540" />
     <MESSAGE value="-&gt;add('firstname')&#10;-&gt;add('lastname')&#10;in RegisterType.php" />
@@ -550,6 +554,7 @@
     <MESSAGE value="19. Les vues privées : L'espace membre de l'utilisateur : {{ dump (app.user.password) }}" />
     <MESSAGE value="19. Les vues privées : L'espace membre de l'utilisateur :  {{ (app.user.firstname) }}" />
     <MESSAGE value="19. Les vues privées : L'espace membre de l'utilisateur :  throw new \Exception('TODO: provide a valid redirect inside '.__FILE__);" />
-    <option name="LAST_COMMIT_MESSAGE" value="19. Les vues privées : L'espace membre de l'utilisateur :  throw new \Exception('TODO: provide a valid redirect inside '.__FILE__);" />
+    <MESSAGE value="19. Les vues privées : L'espace membre de l'utilisateur : &#10;return new RedirectResponse($this-&gt;urlGenerator-&gt;generate('account'));" />
+    <option name="LAST_COMMIT_MESSAGE" value="19. Les vues privées : L'espace membre de l'utilisateur : &#10;return new RedirectResponse($this-&gt;urlGenerator-&gt;generate('account'));" />
   </component>
 </project>
