@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="20. Les vues privées : Can't get a way to read the property &quot;new_password&quot; in class &quot;App\Entity\User&quot;.">
+    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="20. Les vues privées :'mapped' =&gt; false,">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Form/ChangePasswordType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/ChangePasswordType.php" afterDir="false" />
     </list>
@@ -176,14 +176,7 @@
       <workItem from="1608734307249" duration="2489000" />
       <workItem from="1608819704413" duration="8063000" />
       <workItem from="1608884158391" duration="15227000" />
-      <workItem from="1608977882298" duration="18439000" />
-    </task>
-    <task id="LOCAL-00013" summary="file:.env/ DATABASE_URL=&quot;mysql://root:@127.0.0.1:3306/souck?serverVersion=5.7&quot; =&gt; Created database `souck` for connection named default">
-      <created>1608550428574</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1608550428574</updated>
+      <workItem from="1608977882298" duration="18623000" />
     </task>
     <task id="LOCAL-00014" summary="symfony console make:migration =&gt; &#10; Next: Review the new migration &quot;migrations/Version20201221115512.php&quot;&#10; Then: Run the migration with php bin/console doctrine:migrations:migrate&#10; See https://symfony.com/doc/current/bundles/DoctrineMigrationsBundle/index.html">
       <created>1608551788524</created>
@@ -521,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609099867988</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="20. Les vues privées :'mapped' =&gt; false,">
+      <created>1609100134840</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1609100134840</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="$encoder-&gt;encodePassword=&gt; pwd cripté" />
     <MESSAGE value="psw encodé in DB souck" />
     <MESSAGE value="17. Valider les données grâce au composant Validator de Symfony 5/Symfony\Component\Validator\Constraints\Length/ translator:fr" />
     <MESSAGE value="17. Valider les données grâce au composant Validator de Symfony 5/Symfony\Component\Validator\Constraints\Length/ translator:/login =&gt; You are logged in as zakaria@mail.com" />
@@ -572,6 +571,7 @@
     <MESSAGE value="20. Les vues privées : modif password fix email,Lastname,Firstname" />
     <MESSAGE value="20. Les vues privées : Mon mot de passe actuel" />
     <MESSAGE value="20. Les vues privées : Can't get a way to read the property &quot;new_password&quot; in class &quot;App\Entity\User&quot;." />
-    <option name="LAST_COMMIT_MESSAGE" value="20. Les vues privées : Can't get a way to read the property &quot;new_password&quot; in class &quot;App\Entity\User&quot;." />
+    <MESSAGE value="20. Les vues privées :'mapped' =&gt; false," />
+    <option name="LAST_COMMIT_MESSAGE" value="20. Les vues privées :'mapped' =&gt; false," />
   </component>
 </project>
