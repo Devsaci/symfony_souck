@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="19. Les vues privées : L'espace membre de l'utilisateur : {{ dump (app.user.password) }}">
+    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="19. Les vues privées : L'espace membre de l'utilisateur :  {{ (app.user.firstname) }}">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/account/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +178,7 @@
       <workItem from="1608734307249" duration="2489000" />
       <workItem from="1608819704413" duration="8063000" />
       <workItem from="1608884158391" duration="15227000" />
-      <workItem from="1608977882298" duration="6111000" />
+      <workItem from="1608977882298" duration="7144000" />
     </task>
     <task id="LOCAL-00001" summary="Iitialis Souck File CSS,JS, base.html.twig">
       <created>1608376983432</created>
@@ -486,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609065971635</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="19. Les vues privées : L'espace membre de l'utilisateur :  {{ (app.user.firstname) }}">
+      <created>1609066231504</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1609066231504</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,7 +521,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="form_themes: ['bootstrap_4_layout.html.twig'] in config/packages/twig.yam" />
     <MESSAGE value="add field lastname, firstname" />
     <MESSAGE value="symfony console make:migration" />
     <MESSAGE value="symfony console make:migration =&gt; Next: Review the new migration &quot;migrations/Version20201224195540.php&quot;" />
@@ -537,6 +545,7 @@
     <MESSAGE value="19. Les vues privées : L'espace membre de l'utilisateur : {{ dump (app) }}" />
     <MESSAGE value="19. Les vues privées : L'espace membre de l'utilisateur : {{ dump (app.user) }}" />
     <MESSAGE value="19. Les vues privées : L'espace membre de l'utilisateur : {{ dump (app.user.password) }}" />
-    <option name="LAST_COMMIT_MESSAGE" value="19. Les vues privées : L'espace membre de l'utilisateur : {{ dump (app.user.password) }}" />
+    <MESSAGE value="19. Les vues privées : L'espace membre de l'utilisateur :  {{ (app.user.firstname) }}" />
+    <option name="LAST_COMMIT_MESSAGE" value="19. Les vues privées : L'espace membre de l'utilisateur :  {{ (app.user.firstname) }}" />
   </component>
 </project>
