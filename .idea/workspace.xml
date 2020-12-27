@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="19. Les vues privées : L'espace membre de l'utilisateur : &#10;return new RedirectResponse($this-&gt;urlGenerator-&gt;generate('account')); =&gt; http://localhost:8000/compte#">
+    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="19. Les vues privées : L'espace membre de l'utilisateur : symfony console debug:router =&gt;  register ANY ANY ANY /inscription">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +176,7 @@
       <workItem from="1608734307249" duration="2489000" />
       <workItem from="1608819704413" duration="8063000" />
       <workItem from="1608884158391" duration="15227000" />
-      <workItem from="1608977882298" duration="9533000" />
+      <workItem from="1608977882298" duration="10077000" />
     </task>
     <task id="LOCAL-00001" summary="Iitialis Souck File CSS,JS, base.html.twig">
       <created>1608376983432</created>
@@ -514,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609067664452</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="19. Les vues privées : L'espace membre de l'utilisateur : symfony console debug:router =&gt;  register ANY ANY ANY /inscription">
+      <created>1609070157882</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1609070157882</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -540,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="symfony console doctrine:migration:migrate =&gt;  Migrating up to DoctrineMigrations\Version20201224195540" />
     <MESSAGE value="-&gt;add('firstname')&#10;-&gt;add('lastname')&#10;in RegisterType.php" />
     <MESSAGE value="validation formulaire" />
     <MESSAGE value="-&gt;add('firstname'/'lastname'/'email'/'password'" />
@@ -565,6 +571,7 @@
     <MESSAGE value="19. Les vues privées : L'espace membre de l'utilisateur :  throw new \Exception('TODO: provide a valid redirect inside '.__FILE__);" />
     <MESSAGE value="19. Les vues privées : L'espace membre de l'utilisateur : &#10;return new RedirectResponse($this-&gt;urlGenerator-&gt;generate('account'));" />
     <MESSAGE value="19. Les vues privées : L'espace membre de l'utilisateur : &#10;return new RedirectResponse($this-&gt;urlGenerator-&gt;generate('account')); =&gt; http://localhost:8000/compte#" />
-    <option name="LAST_COMMIT_MESSAGE" value="19. Les vues privées : L'espace membre de l'utilisateur : &#10;return new RedirectResponse($this-&gt;urlGenerator-&gt;generate('account')); =&gt; http://localhost:8000/compte#" />
+    <MESSAGE value="19. Les vues privées : L'espace membre de l'utilisateur : symfony console debug:router =&gt;  register ANY ANY ANY /inscription" />
+    <option name="LAST_COMMIT_MESSAGE" value="19. Les vues privées : L'espace membre de l'utilisateur : symfony console debug:router =&gt;  register ANY ANY ANY /inscription" />
   </component>
 </project>
