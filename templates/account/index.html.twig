@@ -21,8 +21,7 @@
         <h1> Espace Personnel </h1>
 
         <h1>Mon compte ✅</h1>
-        Bienvenue ....... sur votre compte.
-        {{ dump (app.user.password) }}
+        Bienvenue {{ (app.user.firstname) }} sur votre compte.
 
     </div>
 {% endblock %}
