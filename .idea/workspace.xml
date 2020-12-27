@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="20. Les vues privées : Mon mot de passe actuel">
+    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="20. Les vues privées : Can't get a way to read the property &quot;new_password&quot; in class &quot;App\Entity\User&quot;.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Form/ChangePasswordType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/ChangePasswordType.php" afterDir="false" />
     </list>
@@ -176,14 +176,7 @@
       <workItem from="1608734307249" duration="2489000" />
       <workItem from="1608819704413" duration="8063000" />
       <workItem from="1608884158391" duration="15227000" />
-      <workItem from="1608977882298" duration="18190000" />
-    </task>
-    <task id="LOCAL-00012" summary="  SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)">
-      <created>1608549354886</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1608549354886</updated>
+      <workItem from="1608977882298" duration="18439000" />
     </task>
     <task id="LOCAL-00013" summary="file:.env/ DATABASE_URL=&quot;mysql://root:@127.0.0.1:3306/souck?serverVersion=5.7&quot; =&gt; Created database `souck` for connection named default">
       <created>1608550428574</created>
@@ -521,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609084746457</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="20. Les vues privées : Can't get a way to read the property &quot;new_password&quot; in class &quot;App\Entity\User&quot;.">
+      <created>1609099867988</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1609099867988</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="$password = $user-&gt;getPassword();" />
     <MESSAGE value="$encoder-&gt;encodePassword=&gt; pwd cripté" />
     <MESSAGE value="psw encodé in DB souck" />
     <MESSAGE value="17. Valider les données grâce au composant Validator de Symfony 5/Symfony\Component\Validator\Constraints\Length/ translator:fr" />
@@ -572,6 +571,7 @@
     <MESSAGE value="20. Les vues privées :{{ form(form) }}" />
     <MESSAGE value="20. Les vues privées : modif password fix email,Lastname,Firstname" />
     <MESSAGE value="20. Les vues privées : Mon mot de passe actuel" />
-    <option name="LAST_COMMIT_MESSAGE" value="20. Les vues privées : Mon mot de passe actuel" />
+    <MESSAGE value="20. Les vues privées : Can't get a way to read the property &quot;new_password&quot; in class &quot;App\Entity\User&quot;." />
+    <option name="LAST_COMMIT_MESSAGE" value="20. Les vues privées : Can't get a way to read the property &quot;new_password&quot; in class &quot;App\Entity\User&quot;." />
   </component>
 </project>
