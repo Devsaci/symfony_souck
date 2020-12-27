@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="20. Les vues privées :'mapped' =&gt; false,">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/ChangePasswordType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/ChangePasswordType.php" afterDir="false" />
+    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="20. Les vues privées :old_password :'mapped' =&gt; false,">
+      <change beforePath="$PROJECT_DIR$/src/Controller/AccountPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AccountPasswordController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,14 +175,7 @@
       <workItem from="1608734307249" duration="2489000" />
       <workItem from="1608819704413" duration="8063000" />
       <workItem from="1608884158391" duration="15227000" />
-      <workItem from="1608977882298" duration="18623000" />
-    </task>
-    <task id="LOCAL-00014" summary="symfony console make:migration =&gt; &#10; Next: Review the new migration &quot;migrations/Version20201221115512.php&quot;&#10; Then: Run the migration with php bin/console doctrine:migrations:migrate&#10; See https://symfony.com/doc/current/bundles/DoctrineMigrationsBundle/index.html">
-      <created>1608551788524</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1608551788524</updated>
+      <workItem from="1608977882298" duration="18961000" />
     </task>
     <task id="LOCAL-00015" summary="symfony console doctrine:migrations:migrate =&gt; finished in 1015.5ms, used 20M memory, 1 migrations executed, 1 sql queries">
       <created>1608559066193</created>
@@ -521,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609100134840</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="20. Les vues privées :old_password :'mapped' =&gt; false,">
+      <created>1609100273843</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1609100273843</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,7 +546,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="psw encodé in DB souck" />
     <MESSAGE value="17. Valider les données grâce au composant Validator de Symfony 5/Symfony\Component\Validator\Constraints\Length/ translator:fr" />
     <MESSAGE value="17. Valider les données grâce au composant Validator de Symfony 5/Symfony\Component\Validator\Constraints\Length/ translator:/login =&gt; You are logged in as zakaria@mail.com" />
     <MESSAGE value="19. Les vues privées : L'espace membre de l'utilisateur : symfony console make:controller; Accountcontroller =&gt;  created: src/Controller/AccountController.php ; templates/account/index.html.twig" />
@@ -572,6 +570,7 @@
     <MESSAGE value="20. Les vues privées : Mon mot de passe actuel" />
     <MESSAGE value="20. Les vues privées : Can't get a way to read the property &quot;new_password&quot; in class &quot;App\Entity\User&quot;." />
     <MESSAGE value="20. Les vues privées :'mapped' =&gt; false," />
-    <option name="LAST_COMMIT_MESSAGE" value="20. Les vues privées :'mapped' =&gt; false," />
+    <MESSAGE value="20. Les vues privées :old_password :'mapped' =&gt; false," />
+    <option name="LAST_COMMIT_MESSAGE" value="20. Les vues privées :old_password :'mapped' =&gt; false," />
   </component>
 </project>
