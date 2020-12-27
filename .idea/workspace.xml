@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="20. Les vues privées : createForm(ChangePasswordType::class,$user);/'form' =&gt; $form -&gt;createView()">
+    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="20. Les vues privées :{{ form(form) }}">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/account/password.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account/password.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/ChangePasswordType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/ChangePasswordType.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,14 +176,7 @@
       <workItem from="1608734307249" duration="2489000" />
       <workItem from="1608819704413" duration="8063000" />
       <workItem from="1608884158391" duration="15227000" />
-      <workItem from="1608977882298" duration="15828000" />
-    </task>
-    <task id="LOCAL-00009" summary="Integration bootstrap.css/config:index.html.twig">
-      <created>1608462593113</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1608462593113</updated>
+      <workItem from="1608977882298" duration="16545000" />
     </task>
     <task id="LOCAL-00010" summary="Creat Entity User()">
       <created>1608545948458</created>
@@ -521,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609083521670</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="20. Les vues privées :{{ form(form) }}">
+      <created>1609083695878</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1609083695878</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Persistance en BD" />
     <MESSAGE value="Injection EntityManagerInterface, creat public function __construct()" />
     <MESSAGE value="Modificat Input Form" />
     <MESSAGE value="$password = $user-&gt;getPassword();" />
@@ -572,6 +571,7 @@
     <MESSAGE value="20. Les vues privées : /compte/modifier-mon-mot-de-passe" />
     <MESSAGE value="20. Les vues privées : symfony console make:form/ChangePassword&#10;/User" />
     <MESSAGE value="20. Les vues privées : createForm(ChangePasswordType::class,$user);/'form' =&gt; $form -&gt;createView()" />
-    <option name="LAST_COMMIT_MESSAGE" value="20. Les vues privées : createForm(ChangePasswordType::class,$user);/'form' =&gt; $form -&gt;createView()" />
+    <MESSAGE value="20. Les vues privées :{{ form(form) }}" />
+    <option name="LAST_COMMIT_MESSAGE" value="20. Les vues privées :{{ form(form) }}" />
   </component>
 </project>
