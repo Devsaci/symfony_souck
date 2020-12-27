@@ -13,7 +13,7 @@ class AccountPasswordController extends AbstractController
      */
     public function index(): Response
     {
-        return $this->render('account_password/password.html.twig', [
+        return $this->render('account/password.html.twig', [
 
         ]);
     }
