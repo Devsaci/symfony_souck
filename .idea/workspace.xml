@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="">
+    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="17. Valider les données grâce au composant Validator de Symfony 5/Symfony\Component\Validator\Constraints\Length/ translator:/login =&gt; You are logged in as zakaria@mail.com">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/RegisterType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/RegisterType.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +175,7 @@
       <workItem from="1608734307249" duration="2489000" />
       <workItem from="1608819704413" duration="8063000" />
       <workItem from="1608884158391" duration="15227000" />
-      <workItem from="1608977882298" duration="2968000" />
+      <workItem from="1608977882298" duration="5318000" />
     </task>
     <task id="LOCAL-00001" summary="Iitialis Souck File CSS,JS, base.html.twig">
       <created>1608376983432</created>
@@ -452,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608935674970</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="17. Valider les données grâce au composant Validator de Symfony 5/Symfony\Component\Validator\Constraints\Length/ translator:/login =&gt; You are logged in as zakaria@mail.com">
+      <created>1608980961298</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1608980961298</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,7 +468,14 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="95" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="94" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -471,7 +483,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="symfony console doctrine:migrations:migrate =&gt; finished in 1015.5ms, used 20M memory, 1 migrations executed, 1 sql queries" />
     <MESSAGE value="symfony console make:controller =&gt; &#10;1. created: src/Controller/RegisterController.php&#10;2. created: templates/register/index.html.twig" />
     <MESSAGE value="symfony console make:form =&gt; created: src/Form/RegisterType.php : Success!" />
     <MESSAGE value="createForm(),createView(),{{ form(form) }} =&gt; Formulaire in FORM index.html.twig" />
@@ -496,6 +507,7 @@
     <MESSAGE value="$encoder-&gt;encodePassword=&gt; pwd cripté" />
     <MESSAGE value="psw encodé in DB souck" />
     <MESSAGE value="17. Valider les données grâce au composant Validator de Symfony 5/Symfony\Component\Validator\Constraints\Length/ translator:fr" />
-    <option name="LAST_COMMIT_MESSAGE" value="17. Valider les données grâce au composant Validator de Symfony 5/Symfony\Component\Validator\Constraints\Length/ translator:fr" />
+    <MESSAGE value="17. Valider les données grâce au composant Validator de Symfony 5/Symfony\Component\Validator\Constraints\Length/ translator:/login =&gt; You are logged in as zakaria@mail.com" />
+    <option name="LAST_COMMIT_MESSAGE" value="17. Valider les données grâce au composant Validator de Symfony 5/Symfony\Component\Validator\Constraints\Length/ translator:/login =&gt; You are logged in as zakaria@mail.com" />
   </component>
 </project>
