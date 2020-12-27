@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="20. Les vues privées : symfony console make:form/ChangePassword&#10;/User">
-      <change beforePath="$PROJECT_DIR$/src/Controller/AccountPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AccountPasswordController.php" afterDir="false" />
+    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="20. Les vues privées : createForm(ChangePasswordType::class,$user);/'form' =&gt; $form -&gt;createView()">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/password.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account/password.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,14 +176,7 @@
       <workItem from="1608734307249" duration="2489000" />
       <workItem from="1608819704413" duration="8063000" />
       <workItem from="1608884158391" duration="15227000" />
-      <workItem from="1608977882298" duration="15378000" />
-    </task>
-    <task id="LOCAL-00008" summary="{{ asset('assets/css/bootstrap.min.css') }}&#10;{{ asset('assets/css/carousel.css') }}&#10;{{ asset('assets/js/bootstrap.bundle.js') }}">
-      <created>1608461003889</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1608461003889</updated>
+      <workItem from="1608977882298" duration="15828000" />
     </task>
     <task id="LOCAL-00009" summary="Integration bootstrap.css/config:index.html.twig">
       <created>1608462593113</created>
@@ -520,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609082981391</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="20. Les vues privées : createForm(ChangePasswordType::class,$user);/'form' =&gt; $form -&gt;createView()">
+      <created>1609083521670</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1609083521670</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Test $user = $form-&gt;getData();" />
     <MESSAGE value="Persistance en BD" />
     <MESSAGE value="Injection EntityManagerInterface, creat public function __construct()" />
     <MESSAGE value="Modificat Input Form" />
@@ -571,6 +571,7 @@
     <MESSAGE value="20. Les vues privées : render('account_password/password.html.twig'=&gt; compte/modifier-mon-mot-de-passe =&gt; Unable to find template &quot;account_password/password.html.twig&quot;" />
     <MESSAGE value="20. Les vues privées : /compte/modifier-mon-mot-de-passe" />
     <MESSAGE value="20. Les vues privées : symfony console make:form/ChangePassword&#10;/User" />
-    <option name="LAST_COMMIT_MESSAGE" value="20. Les vues privées : symfony console make:form/ChangePassword&#10;/User" />
+    <MESSAGE value="20. Les vues privées : createForm(ChangePasswordType::class,$user);/'form' =&gt; $form -&gt;createView()" />
+    <option name="LAST_COMMIT_MESSAGE" value="20. Les vues privées : createForm(ChangePasswordType::class,$user);/'form' =&gt; $form -&gt;createView()" />
   </component>
 </project>
