@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="20. Les vues privées :{{ form(form) }}">
+    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="20. Les vues privées : modif password fix email,Lastname,Firstname">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Form/ChangePasswordType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/ChangePasswordType.php" afterDir="false" />
     </list>
@@ -176,14 +176,7 @@
       <workItem from="1608734307249" duration="2489000" />
       <workItem from="1608819704413" duration="8063000" />
       <workItem from="1608884158391" duration="15227000" />
-      <workItem from="1608977882298" duration="16545000" />
-    </task>
-    <task id="LOCAL-00010" summary="Creat Entity User()">
-      <created>1608545948458</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1608545948458</updated>
+      <workItem from="1608977882298" duration="16876000" />
     </task>
     <task id="LOCAL-00011" summary="file env: mysql://root:root@127.0.0.1:3306/souck?serverVersion=5.7">
       <created>1608546801289</created>
@@ -521,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609083695878</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="20. Les vues privées : modif password fix email,Lastname,Firstname">
+      <created>1609084531382</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1609084531382</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Injection EntityManagerInterface, creat public function __construct()" />
     <MESSAGE value="Modificat Input Form" />
     <MESSAGE value="$password = $user-&gt;getPassword();" />
     <MESSAGE value="$encoder-&gt;encodePassword=&gt; pwd cripté" />
@@ -572,6 +571,7 @@
     <MESSAGE value="20. Les vues privées : symfony console make:form/ChangePassword&#10;/User" />
     <MESSAGE value="20. Les vues privées : createForm(ChangePasswordType::class,$user);/'form' =&gt; $form -&gt;createView()" />
     <MESSAGE value="20. Les vues privées :{{ form(form) }}" />
-    <option name="LAST_COMMIT_MESSAGE" value="20. Les vues privées :{{ form(form) }}" />
+    <MESSAGE value="20. Les vues privées : modif password fix email,Lastname,Firstname" />
+    <option name="LAST_COMMIT_MESSAGE" value="20. Les vues privées : modif password fix email,Lastname,Firstname" />
   </component>
 </project>

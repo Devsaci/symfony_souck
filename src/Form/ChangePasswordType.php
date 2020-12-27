@@ -28,7 +28,14 @@ class ChangePasswordType extends AbstractType
                 'disabled' => true,
                 'label' => 'lastname'
             ])
-            ->add('password');
+            ->add('password', PasswordType::class, [
+                'label' => 'Mon mot de passe actuel',
+                'mapped' => false,
+                'attr' => [
+                    'placeholder' => 'Veuillez saisir votre mot de passe actuel'
+                ]
+
+            ]);
     }
 
     public function configureOptions(OptionsResolver $resolver)
