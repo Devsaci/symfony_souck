@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="20. Les vues privées : dd($new_pws)">
+    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="20. Les vues privées : entityManager-&gt;persist($user)/entityManager-&gt;flush();">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/AccountPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AccountPasswordController.php" afterDir="false" />
     </list>
@@ -176,14 +176,7 @@
       <workItem from="1608734307249" duration="2489000" />
       <workItem from="1608819704413" duration="8063000" />
       <workItem from="1608884158391" duration="15227000" />
-      <workItem from="1608977882298" duration="21856000" />
-    </task>
-    <task id="LOCAL-00020" summary="form_themes: ['bootstrap_4_layout.html.twig'] in config/packages/twig.yam">
-      <created>1608839268715</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1608839268716</updated>
+      <workItem from="1608977882298" duration="22190000" />
     </task>
     <task id="LOCAL-00021" summary="add field lastname, firstname">
       <created>1608839649469</created>
@@ -521,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609102909863</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="20. Les vues privées : entityManager-&gt;persist($user)/entityManager-&gt;flush();">
+      <created>1609103529668</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1609103529668</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="19. Les vues privées : L'espace membre de l'utilisateur : {{ dump (app.user) }}" />
     <MESSAGE value="19. Les vues privées : L'espace membre de l'utilisateur : {{ dump (app.user.password) }}" />
     <MESSAGE value="19. Les vues privées : L'espace membre de l'utilisateur :  {{ (app.user.firstname) }}" />
     <MESSAGE value="19. Les vues privées : L'espace membre de l'utilisateur :  throw new \Exception('TODO: provide a valid redirect inside '.__FILE__);" />
@@ -572,6 +571,7 @@
     <MESSAGE value="20. Les vues privées :UserPasswordEncoderInterface $encoder" />
     <MESSAGE value="20. Les vues privées :ReflectionException&#10;                      HTTP 500 Internal Server Error&#10;                      Class http\Client\Request does not exist" />
     <MESSAGE value="20. Les vues privées : dd($new_pws)" />
-    <option name="LAST_COMMIT_MESSAGE" value="20. Les vues privées : dd($new_pws)" />
+    <MESSAGE value="20. Les vues privées : entityManager-&gt;persist($user)/entityManager-&gt;flush();" />
+    <option name="LAST_COMMIT_MESSAGE" value="20. Les vues privées : entityManager-&gt;persist($user)/entityManager-&gt;flush();" />
   </component>
 </project>
