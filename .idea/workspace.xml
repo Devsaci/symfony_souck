@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="21. Mise à jour dutemplate pour afficher l'utilisateur et les routes: * souch.css, *{{ path('home') }}, *&lt;small&gt;({{ app.user.firstname }})&lt;/small&gt;" />
+    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="21. Mise à jour dutemplate pour afficher l'utilisateur et les routes: * souch.css, *{{ path('home') }}, *&lt;small&gt;({{ app.user.firstname }})&lt;/small&gt;">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cc77e3d6-793f-4aa2-9336-0e5c9eaed71f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cc77e3d6-793f-4aa2-9336-0e5c9eaed71f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,14 +185,7 @@
       <workItem from="1609170412237" duration="2691000" />
       <workItem from="1609174587108" duration="6132000" />
       <workItem from="1609243213799" duration="4964000" />
-      <workItem from="1609339235143" duration="3090000" />
-    </task>
-    <task id="LOCAL-00023" summary="symfony console make:migration =&gt; Next: Review the new migration &quot;migrations/Version20201224195540.php&quot;">
-      <created>1608840079205</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1608840079205</updated>
+      <workItem from="1609339235143" duration="5065000" />
     </task>
     <task id="LOCAL-00024" summary="symfony console doctrine:migration:migrate =&gt;  Migrating up to DoctrineMigrations\Version20201224195540">
       <created>1608840161704</created>
@@ -525,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609344306287</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="24. Installation, configuration et mapping de EasyAdmin avec l'entité User()&#10;* symfony console make:admin:crud/ App\Entity\User">
+      <created>1609344580510</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1609344580510</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +556,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="19. Les vues privées : L'espace membre de l'utilisateur :  throw new \Exception('TODO: provide a valid redirect inside '.__FILE__);" />
     <MESSAGE value="19. Les vues privées : L'espace membre de l'utilisateur : &#10;return new RedirectResponse($this-&gt;urlGenerator-&gt;generate('account'));" />
     <MESSAGE value="19. Les vues privées : L'espace membre de l'utilisateur : &#10;return new RedirectResponse($this-&gt;urlGenerator-&gt;generate('account')); =&gt; http://localhost:8000/compte#" />
     <MESSAGE value="19. Les vues privées : L'espace membre de l'utilisateur : symfony console debug:router =&gt;  register ANY ANY ANY /inscription" />
@@ -576,6 +580,7 @@
     <MESSAGE value="20. Les vues privées : entityManager-&gt;persist($user)/entityManager-&gt;flush();" />
     <MESSAGE value="20. Les vues privées : notification" />
     <MESSAGE value="24. Installation, configuration et mapping de EasyAdmin avec l'entité User()&#10;1/symfony console make:admin:dashboard&#10;2/symfony console make:admin:crud" />
-    <option name="LAST_COMMIT_MESSAGE" value="24. Installation, configuration et mapping de EasyAdmin avec l'entité User()&#10;1/symfony console make:admin:dashboard&#10;2/symfony console make:admin:crud" />
+    <MESSAGE value="24. Installation, configuration et mapping de EasyAdmin avec l'entité User()&#10;* symfony console make:admin:crud/ App\Entity\User" />
+    <option name="LAST_COMMIT_MESSAGE" value="24. Installation, configuration et mapping de EasyAdmin avec l'entité User()&#10;* symfony console make:admin:crud/ App\Entity\User" />
   </component>
 </project>
