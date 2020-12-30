@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="21. Mise à jour dutemplate pour afficher l'utilisateur et les routes: * souch.css, *{{ path('home') }}, *&lt;small&gt;({{ app.user.firstname }})&lt;/small&gt;">
-      <change afterPath="$PROJECT_DIR$/public/assets/css/souck.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/souck.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/souck.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/account/password.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account/password.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-    </list>
+    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="21. Mise à jour dutemplate pour afficher l'utilisateur et les routes: * souch.css, *{{ path('home') }}, *&lt;small&gt;({{ app.user.firstname }})&lt;/small&gt;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -191,14 +180,7 @@
       <workItem from="1609170412237" duration="2691000" />
       <workItem from="1609174587108" duration="6132000" />
       <workItem from="1609243213799" duration="4964000" />
-      <workItem from="1609339235143" duration="2754000" />
-    </task>
-    <task id="LOCAL-00022" summary="symfony console make:migration">
-      <created>1608839999532</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1608839999532</updated>
+      <workItem from="1609339235143" duration="3090000" />
     </task>
     <task id="LOCAL-00023" summary="symfony console make:migration =&gt; Next: Review the new migration &quot;migrations/Version20201224195540.php&quot;">
       <created>1608840079205</created>
@@ -536,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609103844466</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="24. Installation, configuration et mapping de EasyAdmin avec l'entité User()&#10;1/symfony console make:admin:dashboard&#10;2/symfony console make:admin:crud">
+      <created>1609344306287</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1609344306287</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -562,7 +551,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="19. Les vues privées : L'espace membre de l'utilisateur :  {{ (app.user.firstname) }}" />
     <MESSAGE value="19. Les vues privées : L'espace membre de l'utilisateur :  throw new \Exception('TODO: provide a valid redirect inside '.__FILE__);" />
     <MESSAGE value="19. Les vues privées : L'espace membre de l'utilisateur : &#10;return new RedirectResponse($this-&gt;urlGenerator-&gt;generate('account'));" />
     <MESSAGE value="19. Les vues privées : L'espace membre de l'utilisateur : &#10;return new RedirectResponse($this-&gt;urlGenerator-&gt;generate('account')); =&gt; http://localhost:8000/compte#" />
@@ -587,6 +575,7 @@
     <MESSAGE value="20. Les vues privées : dd($new_pws)" />
     <MESSAGE value="20. Les vues privées : entityManager-&gt;persist($user)/entityManager-&gt;flush();" />
     <MESSAGE value="20. Les vues privées : notification" />
-    <option name="LAST_COMMIT_MESSAGE" value="20. Les vues privées : notification" />
+    <MESSAGE value="24. Installation, configuration et mapping de EasyAdmin avec l'entité User()&#10;1/symfony console make:admin:dashboard&#10;2/symfony console make:admin:crud" />
+    <option name="LAST_COMMIT_MESSAGE" value="24. Installation, configuration et mapping de EasyAdmin avec l'entité User()&#10;1/symfony console make:admin:dashboard&#10;2/symfony console make:admin:crud" />
   </component>
 </project>
