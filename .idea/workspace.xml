@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="21. Mise à jour dutemplate pour afficher l'utilisateur et les routes: * souch.css, *{{ path('home') }}, *&lt;small&gt;({{ app.user.firstname }})&lt;/small&gt;">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7a85f052-6d58-460d-bc49-a45e524553df.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7a85f052-6d58-460d-bc49-a45e524553df.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cc77e3d6-793f-4aa2-9336-0e5c9eaed71f.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cc77e3d6-793f-4aa2-9336-0e5c9eaed71f/storage_v2/_src_/schema/biblio.t78wrQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cc77e3d6-793f-4aa2-9336-0e5c9eaed71f/storage_v2/_src_/schema/ecommerce.QLYXWw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cc77e3d6-793f-4aa2-9336-0e5c9eaed71f/storage_v2/_src_/schema/ecommerce_saci.06nw_w.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cc77e3d6-793f-4aa2-9336-0e5c9eaed71f/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cc77e3d6-793f-4aa2-9336-0e5c9eaed71f/storage_v2/_src_/schema/jstore_ecommerce.uKL0tA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cc77e3d6-793f-4aa2-9336-0e5c9eaed71f/storage_v2/_src_/schema/nana.pnozAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cc77e3d6-793f-4aa2-9336-0e5c9eaed71f/storage_v2/_src_/schema/record.UWxGyA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/Version20201221125140.php" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/Version20201230182708.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-    </list>
+    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="21. Mise à jour dutemplate pour afficher l'utilisateur et les routes: * souch.css, *{{ path('home') }}, *&lt;small&gt;({{ app.user.firstname }})&lt;/small&gt;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -567,7 +554,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="19. Les vues privées : L'espace membre de l'utilisateur : symfony console debug:router =&gt;  register ANY ANY ANY /inscription" />
     <MESSAGE value="19. Les vues privées : L'espace membre de l'utilisateur : redirectToRoute('account')" />
     <MESSAGE value="20. Les vues privées : Modification du mot de passe de l'utilisateur : symfony console make:controller/AccountPasswordController" />
     <MESSAGE value="20. Les vues privées : Modification du mot de passe de l'utilisateur : symfony console make:controller/AccountPasswordController/Dellete AccountPasswordController" />
@@ -592,6 +578,7 @@
     <MESSAGE value="24. Installation, configuration et mapping de EasyAdmin avec l'entité User()&#10;* symfony console make:admin:crud/ App\Entity\User" />
     <MESSAGE value="24. Installation, configuration et mapping de EasyAdmin avec l'entité User()&#10;* symfony console doctrine:database:create" />
     <MESSAGE value="24. Installation, configuration et mapping de EasyAdmin avec l'entité User()&#10;* souck&gt;symfony console make:migration: &quot;migrations/Version20201230182708.php&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="24. Installation, configuration et mapping de EasyAdmin avec l'entité User()&#10;* souck&gt;symfony console make:migration: &quot;migrations/Version20201230182708.php&quot;" />
+    <MESSAGE value="25. Création de l'entité Category() pour organiser nos produits : class Category" />
+    <option name="LAST_COMMIT_MESSAGE" value="25. Création de l'entité Category() pour organiser nos produits : class Category" />
   </component>
 </project>
