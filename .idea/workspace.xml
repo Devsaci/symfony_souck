@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="21. Mise à jour dutemplate pour afficher l'utilisateur et les routes: * souch.css, *{{ path('home') }}, *&lt;small&gt;({{ app.user.firstname }})&lt;/small&gt;">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7a85f052-6d58-460d-bc49-a45e524553df.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7a85f052-6d58-460d-bc49-a45e524553df.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,14 +198,7 @@
       <workItem from="1609430171536" duration="302000" />
       <workItem from="1609514252929" duration="5193000" />
       <workItem from="1609599977688" duration="1663000" />
-      <workItem from="1609601706443" duration="6438000" />
-    </task>
-    <task id="LOCAL-00036" summary="$password = $user-&gt;getPassword();">
-      <created>1608931171716</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1608931171716</updated>
+      <workItem from="1609601706443" duration="7038000" />
     </task>
     <task id="LOCAL-00037" summary="$encoder-&gt;encodePassword=&gt; pwd cripté">
       <created>1608931354620</created>
@@ -543,7 +536,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609612228169</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="29. Mapping de l'entité Product() dans EasyAdmin : &lt;i class=&quot;fas fa-bacteria&quot;&gt;&lt;/i&gt;">
+      <created>1609616979648</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1609616979648</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,7 +569,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20. Les vues privées : modif password fix email,Lastname,Firstname" />
     <MESSAGE value="20. Les vues privées : Mon mot de passe actuel" />
     <MESSAGE value="20. Les vues privées : Can't get a way to read the property &quot;new_password&quot; in class &quot;App\Entity\User&quot;." />
     <MESSAGE value="20. Les vues privées :'mapped' =&gt; false," />
@@ -594,6 +593,7 @@
     <MESSAGE value="27. Création de l'entité Product():&#10;symfony console make:migration =&gt;  &quot;migrations/Version20210102181615.php&quot;" />
     <MESSAGE value="27. Création de l'entité Product():&#10;php bin/console doctrine:migrations:migrate =&gt; Migrating up to DoctrineMigrations\Version20210102181615" />
     <MESSAGE value="29. Mapping de l'entité Product() dans EasyAdmin : symfony console make:admin:crud/[1] App\Entity\Product =&gt; &quot;src/Controller/Admin/ProductCrudController.php&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="29. Mapping de l'entité Product() dans EasyAdmin : symfony console make:admin:crud/[1] App\Entity\Product =&gt; &quot;src/Controller/Admin/ProductCrudController.php&quot;" />
+    <MESSAGE value="29. Mapping de l'entité Product() dans EasyAdmin : &lt;i class=&quot;fas fa-bacteria&quot;&gt;&lt;/i&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="29. Mapping de l'entité Product() dans EasyAdmin : &lt;i class=&quot;fas fa-bacteria&quot;&gt;&lt;/i&gt;" />
   </component>
 </project>
