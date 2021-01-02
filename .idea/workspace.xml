@@ -197,14 +197,7 @@
       <workItem from="1609430171536" duration="302000" />
       <workItem from="1609514252929" duration="5193000" />
       <workItem from="1609599977688" duration="1663000" />
-      <workItem from="1609601706443" duration="7284000" />
-    </task>
-    <task id="LOCAL-00039" summary="17. Valider les données grâce au composant Validator de Symfony 5/Symfony\Component\Validator\Constraints\Length/ translator:fr">
-      <created>1608935674970</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1608935674970</updated>
+      <workItem from="1609601706443" duration="7659000" />
     </task>
     <task id="LOCAL-00040" summary="17. Valider les données grâce au composant Validator de Symfony 5/Symfony\Component\Validator\Constraints\Length/ translator:/login =&gt; You are logged in as zakaria@mail.com">
       <created>1608980961298</created>
@@ -542,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609617647435</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="29. Mapping de l'entité Product() dans EasyAdmin: MoneyField::new('price')-&gt;setCurrency('EUR'),">
+      <created>1609617946721</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1609617946721</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -568,7 +568,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20. Les vues privées :'mapped' =&gt; false," />
     <MESSAGE value="20. Les vues privées :old_password :'mapped' =&gt; false," />
     <MESSAGE value="20. Les vues privées :public function index(Request $request)" />
     <MESSAGE value="20. Les vues privées :UserPasswordEncoderInterface $encoder" />
@@ -593,6 +592,7 @@
     <MESSAGE value="29. Mapping de l'entité Product() dans EasyAdmin : &lt;i class=&quot;fas fa-bacteria&quot;&gt;&lt;/i&gt;" />
     <MESSAGE value="29. Mapping de l'entité Product() dans EasyAdmin :TextField" />
     <MESSAGE value="29. Mapping de l'entité Product() dans EasyAdmin :ImageField::new('illustration')" />
-    <option name="LAST_COMMIT_MESSAGE" value="29. Mapping de l'entité Product() dans EasyAdmin :ImageField::new('illustration')" />
+    <MESSAGE value="29. Mapping de l'entité Product() dans EasyAdmin: MoneyField::new('price')-&gt;setCurrency('EUR')," />
+    <option name="LAST_COMMIT_MESSAGE" value="29. Mapping de l'entité Product() dans EasyAdmin: MoneyField::new('price')-&gt;setCurrency('EUR')," />
   </component>
 </project>
