@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="21. Mise à jour dutemplate pour afficher l'utilisateur et les routes: * souch.css, *{{ path('home') }}, *&lt;small&gt;({{ app.user.firstname }})&lt;/small&gt;" />
+    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="21. Mise à jour dutemplate pour afficher l'utilisateur et les routes: * souch.css, *{{ path('home') }}, *&lt;small&gt;({{ app.user.firstname }})&lt;/small&gt;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -195,14 +198,7 @@
       <workItem from="1609430171536" duration="302000" />
       <workItem from="1609514252929" duration="5193000" />
       <workItem from="1609599977688" duration="1663000" />
-      <workItem from="1609601706443" duration="5321000" />
-    </task>
-    <task id="LOCAL-00035" summary="Modificat Input Form">
-      <created>1608930010074</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1608930010074</updated>
+      <workItem from="1609601706443" duration="6438000" />
     </task>
     <task id="LOCAL-00036" summary="$password = $user-&gt;getPassword();">
       <created>1608931171716</created>
@@ -540,7 +536,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609611517859</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="29. Mapping de l'entité Product() dans EasyAdmin : symfony console make:admin:crud/[1] App\Entity\Product =&gt; &quot;src/Controller/Admin/ProductCrudController.php&quot;">
+      <created>1609612228169</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1609612228169</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,7 +569,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20. Les vues privées :{{ form(form) }}" />
     <MESSAGE value="20. Les vues privées : modif password fix email,Lastname,Firstname" />
     <MESSAGE value="20. Les vues privées : Mon mot de passe actuel" />
     <MESSAGE value="20. Les vues privées : Can't get a way to read the property &quot;new_password&quot; in class &quot;App\Entity\User&quot;." />
@@ -591,6 +593,7 @@
     <MESSAGE value="27. Création de l'entité Product():&#10;symfony console make:entity/Product/slog/ManyToOne" />
     <MESSAGE value="27. Création de l'entité Product():&#10;symfony console make:migration =&gt;  &quot;migrations/Version20210102181615.php&quot;" />
     <MESSAGE value="27. Création de l'entité Product():&#10;php bin/console doctrine:migrations:migrate =&gt; Migrating up to DoctrineMigrations\Version20210102181615" />
-    <option name="LAST_COMMIT_MESSAGE" value="27. Création de l'entité Product():&#10;php bin/console doctrine:migrations:migrate =&gt; Migrating up to DoctrineMigrations\Version20210102181615" />
+    <MESSAGE value="29. Mapping de l'entité Product() dans EasyAdmin : symfony console make:admin:crud/[1] App\Entity\Product =&gt; &quot;src/Controller/Admin/ProductCrudController.php&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="29. Mapping de l'entité Product() dans EasyAdmin : symfony console make:admin:crud/[1] App\Entity\Product =&gt; &quot;src/Controller/Admin/ProductCrudController.php&quot;" />
   </component>
 </project>
