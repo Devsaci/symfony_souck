@@ -9,12 +9,8 @@
     <title>{% block title %}SOUCK! ✅{% endblock %}</title>
 
     <!-- Bootstrap core CSS -->
-
     <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('assets/css/souck.css') }}">
-
-
-
     <style>
         .bd-placeholder-img {
             font-size: 1.125rem;
@@ -31,6 +27,7 @@
             }
         }
     </style>
+
     <!-- Custom styles for this template -->
     <link href="{{ asset('assets/css/carousel.css') }}" rel="stylesheet">
 </head>
@@ -53,8 +50,7 @@
                     <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
                 </li>
             </ul>
-
-{#              Button Connection Deconnection #}
+        <!-- Button Connection Deconnection -->
             <div class="navbar-item-custom">
             {% if app.user %}
                 <a href="{{ path('account') }}">Mon compte <small>({{ app.user.firstname }})</small></a> <a href="{{ path('app_logout') }}"> Déconnection</a>
@@ -62,7 +58,6 @@
                 <a href="{{ path('app_login') }}">Connection </a> <a href="{{ path('register') }}"> Inscription</a>
             {% endif %}
             </div>
-
         </div>
     </nav>
 </header>
@@ -140,7 +135,9 @@
             <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
     </footer>
 </main>
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="{{ asset('assets/js/bootstrap.bundle.js') }} "></script>
+
 </body>
 </html>
