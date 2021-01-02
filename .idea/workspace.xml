@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="21. Mise à jour dutemplate pour afficher l'utilisateur et les routes: * souch.css, *{{ path('home') }}, *&lt;small&gt;({{ app.user.firstname }})&lt;/small&gt;">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7a85f052-6d58-460d-bc49-a45e524553df.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7a85f052-6d58-460d-bc49-a45e524553df.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" afterDir="false" />
     </list>
@@ -198,14 +199,7 @@
       <workItem from="1609430171536" duration="302000" />
       <workItem from="1609514252929" duration="5193000" />
       <workItem from="1609599977688" duration="1663000" />
-      <workItem from="1609601706443" duration="2500000" />
-    </task>
-    <task id="LOCAL-00030" summary="password_confirm">
-      <created>1608916137727</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1608916137727</updated>
+      <workItem from="1609601706443" duration="3428000" />
     </task>
     <task id="LOCAL-00031" summary="Request $request=&gt; Injection de dependance">
       <created>1608917144648</created>
@@ -543,7 +537,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609602263665</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="26. Mapping de l'entité Category() dans EasyAdmin&#10;: categories/bacteries, Champignons, Protozoaires, Virus.">
+      <created>1609609277017</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1609609277017</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,7 +570,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20. Les vues privées : Modification du mot de passe de l'utilisateur : symfony console make:controller/password.html.twig" />
     <MESSAGE value="20. Les vues privées : render('account_password/password.html.twig'=&gt; compte/modifier-mon-mot-de-passe =&gt; Unable to find template &quot;account_password/password.html.twig&quot;" />
     <MESSAGE value="20. Les vues privées : /compte/modifier-mon-mot-de-passe" />
     <MESSAGE value="20. Les vues privées : symfony console make:form/ChangePassword&#10;/User" />
@@ -594,6 +594,7 @@
     <MESSAGE value="25. Création de l'entité Category() pour organiser nos produits : symfony console make:migration =&gt; &quot;migrations/Version20210102151639.php&quot;" />
     <MESSAGE value="25. Création de l'entité Category() pour organiser nos produits : php bin/console doctrine:migrations:migrate&#10; =&gt; Migrating up to DoctrineMigrations\Version20210102151639" />
     <MESSAGE value="26. Mapping de l'entité Category() dans EasyAdmin&#10;: &gt;symfony console make:admin:crud&#10; =&gt; &quot;src/Controller/Admin/CategoryCrudController.php&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="26. Mapping de l'entité Category() dans EasyAdmin&#10;: &gt;symfony console make:admin:crud&#10; =&gt; &quot;src/Controller/Admin/CategoryCrudController.php&quot;" />
+    <MESSAGE value="26. Mapping de l'entité Category() dans EasyAdmin&#10;: categories/bacteries, Champignons, Protozoaires, Virus." />
+    <option name="LAST_COMMIT_MESSAGE" value="26. Mapping de l'entité Category() dans EasyAdmin&#10;: categories/bacteries, Champignons, Protozoaires, Virus." />
   </component>
 </project>

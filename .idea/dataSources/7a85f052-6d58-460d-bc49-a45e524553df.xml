@@ -1070,6 +1070,7 @@
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
+      <Collation>utf8_general_ci</Collation>
     </column>
     <key id="339" parent="334" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
