@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="21. Mise à jour dutemplate pour afficher l'utilisateur et les routes: * souch.css, *{{ path('home') }}, *&lt;small&gt;({{ app.user.firstname }})&lt;/small&gt;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c6bab751-30c2-4383-98af-57daa36bcbac" name="Default Changelist" comment="21. Mise à jour dutemplate pour afficher l'utilisateur et les routes: * souch.css, *{{ path('home') }}, *&lt;small&gt;({{ app.user.firstname }})&lt;/small&gt;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,21 +195,7 @@
       <workItem from="1609430171536" duration="302000" />
       <workItem from="1609514252929" duration="5193000" />
       <workItem from="1609599977688" duration="1663000" />
-      <workItem from="1609601706443" duration="4387000" />
-    </task>
-    <task id="LOCAL-00032" summary="Test $user = $form-&gt;getData();">
-      <created>1608917340431</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1608917340431</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Persistance en BD">
-      <created>1608928596474</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1608928596474</updated>
+      <workItem from="1609601706443" duration="4788000" />
     </task>
     <task id="LOCAL-00034" summary="Injection EntityManagerInterface, creat public function __construct()">
       <created>1608929049161</created>
@@ -542,7 +526,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609610164584</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="27. Création de l'entité Product():&#10;symfony console make:entity/Product/slog/ManyToOne">
+      <created>1609611324086</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1609611324086</updated>
+    </task>
+    <task id="LOCAL-00082" summary="27. Création de l'entité Product():&#10;symfony console make:migration =&gt;  &quot;migrations/Version20210102181615.php&quot;">
+      <created>1609611428248</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1609611428248</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -568,8 +566,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20. Les vues privées : /compte/modifier-mon-mot-de-passe" />
-    <MESSAGE value="20. Les vues privées : symfony console make:form/ChangePassword&#10;/User" />
     <MESSAGE value="20. Les vues privées : createForm(ChangePasswordType::class,$user);/'form' =&gt; $form -&gt;createView()" />
     <MESSAGE value="20. Les vues privées :{{ form(form) }}" />
     <MESSAGE value="20. Les vues privées : modif password fix email,Lastname,Firstname" />
@@ -593,6 +589,8 @@
     <MESSAGE value="26. Mapping de l'entité Category() dans EasyAdmin&#10;: &gt;symfony console make:admin:crud&#10; =&gt; &quot;src/Controller/Admin/CategoryCrudController.php&quot;" />
     <MESSAGE value="26. Mapping de l'entité Category() dans EasyAdmin&#10;: categories/bacteries, Champignons, Protozoaires, Virus." />
     <MESSAGE value="26. Mapping de l'entité Category() dans EasyAdmin&#10;: 'fas fa-list'" />
-    <option name="LAST_COMMIT_MESSAGE" value="26. Mapping de l'entité Category() dans EasyAdmin&#10;: 'fas fa-list'" />
+    <MESSAGE value="27. Création de l'entité Product():&#10;symfony console make:entity/Product/slog/ManyToOne" />
+    <MESSAGE value="27. Création de l'entité Product():&#10;symfony console make:migration =&gt;  &quot;migrations/Version20210102181615.php&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="27. Création de l'entité Product():&#10;symfony console make:migration =&gt;  &quot;migrations/Version20210102181615.php&quot;" />
   </component>
 </project>
